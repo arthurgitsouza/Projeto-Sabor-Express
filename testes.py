@@ -1,10 +1,5 @@
-projetos = ["website", "jogo", "análise de dados", None, "aplicativo móvel"]
+list = [1,2,3,4,5,6,7,8,9]
 
-None == True
+media = sum(list) / len(list)
 
-
-for projeto in projetos:
-  if projeto:
-    print(f"Projeto: {projeto}")
-  else:
-    print("Projeto não disponível.")
+print(media)
